@@ -331,14 +331,14 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
     local title = Instance.new("TextLabel")
     title.Name = "title"
     title.Parent = main
-    title.BackgroundColor3 = Color3.fromRGB(30,30,30)
+    title.BackgroundColor3 = Color3.fromRGB(255,255,255)
     title.BackgroundTransparency = 1
     title.BorderSizePixel = 2
     title.Position = UDim2.new(0.389000326, 0, 0.0351027399, 0)
     title.Size = UDim2.new(0, 400, 0, 15)
     title.Font = Enum.Font.Gotham
     title.LineHeight = 1.180
-    title.TextColor3 = Color3.fromRGB(0, 0, 0)
+    title.TextColor3 = Color3.fromRGB(255,255,255)
     title.TextSize = 28
     title.TextWrapped = true
     title.TextXAlignment = Enum.TextXAlignment.Left
@@ -372,7 +372,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
     local notifbutton1 = Instance.new("TextButton")
     notifbutton1.Name = "notifbutton1"
     notifbutton1.Parent = notif
-    notifbutton1.BackgroundColor3 = Color3.fromRGB(30,30,30)
+    notifbutton1.BackgroundColor3 = Color3.fromRGB(255,255,255)
     notifbutton1.Position = UDim2.new(0.0559210554, 0, 0.817679524, 0)
     notifbutton1.Size = UDim2.new(0, 270, 0, 50)
     notifbutton1.ZIndex = 3
